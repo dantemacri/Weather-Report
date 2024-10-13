@@ -8,10 +8,6 @@ body {
     align-items: center;     /* Centra verticalmente */
 }
 
-h1 {
-    color: #333;
-}
-
 button {
     padding: 10px 15px;
     background-color: #28a745;
