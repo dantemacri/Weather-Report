@@ -45,3 +45,13 @@ function searchWeather() {
 }
 
 window.onload = () => getWeather('Buenos Aires'); // Para cargar un pronóstico inicial
+
+//Iniciar búsqueda al precionar lupa o ingresar Enter
+const searchIcon = document.querySelector('.search__icon');
+searchIcon.addEventListener('click', searchWeather);
+
+document.getElementById('city-input').addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') {
+        searchWeather();
+    }
+});
