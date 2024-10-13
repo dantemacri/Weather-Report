@@ -1,8 +1,10 @@
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(180deg, #45a2ff, #2b4b87);
-    justify-content: flex-start; /* Inicia desde la parte superior */
-    padding: 20px;
+    gap: 20px; /* Espacio entre los elementos */
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Altura mínima del viewport */
     display: flex;
     flex-direction: column; /* Centra horizontalmente */
     align-items: center;     /* Centra verticalmente */
