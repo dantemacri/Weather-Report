@@ -1,11 +1,20 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(180deg, #45a2ff, #2b4b87);
-    gap: 20px; /* Espacio entre los elementos */
+    text-align: center;
+    background-color: #f0f0f0;
     margin: 0;
     padding: 20px;
-    display: flex;
-    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#city-input {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 button {
